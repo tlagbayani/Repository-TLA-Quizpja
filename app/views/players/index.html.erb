@@ -1,0 +1,8 @@
+<h1>List your Favorite NBA Players</h1>
+<% @players.each do |player| %>
+  <div class="booyah-box col-10 offset-1">
+    <h1><%= player.name %></h1>
+    <i><%= player.team %></i><br /><br />
+    <p><%= player.position %></p><br />
+  </div>
+<% end %>
