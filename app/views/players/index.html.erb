@@ -1,8 +1,11 @@
+<div class="booyah-box col-10 offset-1">
 <h1>List your Favorite NBA Players</h1>
+<%= link_to 'Enter Player', new_player_path, class: 'btn btn-primary' %>
+</div>
 <% @players.each do |player| %>
   <div class="booyah-box col-10 offset-1">
-    <h1><%= player.name %></h1>
-    <i><%= player.team %></i><br /><br />
-    <p><%= player.position %></p><br />
+    <h2><%= player.name %></h2><br />
+    <i><%= player.team %></i><br />
+    <p><%= player.position %></p> 
   </div>
 <% end %>

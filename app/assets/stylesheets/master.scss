@@ -1,7 +1,14 @@
 @import "bootstrap";
 
 h1 {
-color: #0000f0;
+  color: #0000f0;
+
+
+}
+
+h2 {
+  color: #ff3333;
+  font-size:26px;
 }
 
 .booyah-box {
@@ -19,4 +26,8 @@ color: #0000f0;
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
+}
+
+.btn-primary {
+  color: #ffffff;
 }
